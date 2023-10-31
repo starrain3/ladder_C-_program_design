@@ -54,11 +54,11 @@ cv2.imshow("Original Image", img)
 
 my_conv_layer = Conv3x3(sobel_filter_vertical)
 output_1 = my_conv_layer(img)
-cv2.imshow("Image After Processing with sobel_filter_x", output_1)
+cv2.imshow("Image After Processing with sobel_filter_vertical", output_1)
 
 my_conv_layer = Conv3x3(sobel_filter_horizontal)
 output_2 = my_conv_layer(img)
-cv2.imshow("Image After Processing with sobel_filter_y", output_2)
+cv2.imshow("Image After Processing with sobel_filter_horizontal", output_2)
 
 output = (output_1**2 + output_2**2)**(1/2)
 cv2.imshow("Image After Processing with sobel_filter ", output)
