@@ -33,7 +33,7 @@ img = cv2.imread("/the/path/to/your/pic", cv2.IMREAD_GRAYSCALE)
 output = my_conv_layer(img)
 ```
 ## 記得要用cv2.IMREAD_GRAYSCALE以灰階的形式來讀入圖片
-## 覺得有幫助的可以幫我按個Star
+## 覺得有幫助的可以幫我按個Star <3 
 
 # Here is an example for Convolution Layer. 
 ## Have fun with it!
